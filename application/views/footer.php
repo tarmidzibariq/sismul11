@@ -29,7 +29,13 @@
           display: flex;
           min-height: 100vh;
           flex-direction: column;
-          background: #f4f6f8;
+          background-image:
+            linear-gradient(rgba(244, 246, 248, 0.9), rgba(244, 246, 248, 0.92)),
+            url('<?= site_url('meat.jpeg'); ?>');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
           color: #253238;
         }
 
