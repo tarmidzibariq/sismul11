@@ -21,11 +21,15 @@ class M_welcome extends CI_Model {
         }
     }
 
-      public function update($id){
+      public function update($id, $filename = NULL){
         $data = [
             'name' => $this->input->post('name', TRUE),
             'description' => $this->input->post('description', TRUE),
         ];
+
+        if ($filename !== NULL) {
+            $data['filename'] = $filename;
+        }
 
         $this->db->where('id', $id);
         $this->db->update('post', $data);
