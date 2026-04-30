@@ -12,11 +12,13 @@
 
         <div class="navbar-fixed">
             <nav class="z-depth-0 top-nav">
-                <div class="nav-wrapper container">
-                    <a href="<?= site_url(); ?>" class="brand-logo">DagingMart</a>
+                <div class="nav-wrapper container nav-flex">
+                    <a href="<?= site_url(); ?>" class="brand-logo brand-ui">
+                        <i class="material-icons left">storefront</i>DagingMart
+                    </a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="<?= site_url(); ?>">Dashboard Stok</a></li>
+                        <li><a href="<?= site_url(); ?>" class="nav-link-ui">Dashboard</a></li>
                         <li><a href="<?= base_url('welcome/create'); ?>" class="btn btn-add-stock">Tambah Stok</a></li>
                     </ul>
                 </div>
@@ -24,8 +26,8 @@
         </div>
 
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="<?= site_url(); ?>">Dashboard Stok</a></li>
+            <li><a href="<?= site_url(); ?>">Dashboard</a></li>
             <li><a href="<?= site_url('welcome/create'); ?>">Tambah Stok</a></li>
         </ul>
 
-        <main class="container section">
+        <main class="container section main-shell">

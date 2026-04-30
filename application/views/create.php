@@ -10,8 +10,9 @@
 <section class="card-panel white">
   <div class="row" style="margin-bottom:0;">
     <div class="col s12 m10">
-      <h5 style="margin-top:0; color:#354f52; font-weight:700;">Tambah Stok Makanan</h5>
-      <p class="grey-text text-darken-1">Isi data produk daging dengan deskripsi singkat dan unggah foto agar stok mudah dikenali saat pengecekan.</p>
+      <span class="chip-ui">Form Input</span>
+      <h5 style="margin-top:12px; color:#22333b; font-weight:700;">Tambah Stok Makanan</h5>
+      <p class="grey-text text-darken-1">Isi data produk dan unggah foto agar item mudah dikenali oleh tim operasional.</p>
     </div>
   </div>
 
@@ -64,7 +65,7 @@
       <div class="row center">
         <div class="input-field col s12">
           <button type="submit" class="btn-large btn-primary-ui">Simpan Stok</button>
-          <a href="<?= site_url(); ?>" class="btn-flat">Kembali ke Dashboard</a>
+          <a href="<?= site_url(); ?>" class="btn-flat blue-grey-text text-darken-2">Kembali ke Dashboard</a>
         </div>
       </div>
     </form>

@@ -10,7 +10,8 @@
 <section class="card-panel white">
   <div class="row" style="margin-bottom:0;">
     <div class="col s12 m10">
-      <h5 style="margin-top:0; color:#354f52; font-weight:700;">Update Data Stok</h5>
+      <span class="chip-ui">Edit Data</span>
+      <h5 style="margin-top:12px; color:#22333b; font-weight:700;">Update Data Stok</h5>
       <p class="grey-text text-darken-1">Perbarui nama, deskripsi, atau foto produk agar data stok tetap akurat.</p>
     </div>
   </div>
@@ -56,7 +57,7 @@
 
       <div class="col s12 center">
         <button class="btn-large btn-primary-ui" type="submit">Simpan Perubahan</button>
-        <a href="<?php echo site_url('welcome/index/'.$post->id); ?>" class="btn-flat">Batal</a>
+        <a href="<?php echo site_url('welcome/index/'.$post->id); ?>" class="btn-flat blue-grey-text text-darken-2">Batal</a>
       </div>
     </form>
   </div>
